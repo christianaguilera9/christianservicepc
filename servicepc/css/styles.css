@@ -1,0 +1,93 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #adc5ec;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(/servicepc/imagenes/header3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 30vh;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+}
+
+.subtitulo {
+  font-size: 2rem;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.menudeopciones {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: #88a9ef;
+}
+
+.menudeopciones li {
+  flex: 1;
+  text-align: center;
+}
+
+.menudeopciones a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu {
+  width: 100vw;
+  min-height: 70vh;
+  padding-top: 50px;
+}
+
+.bienvenido {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.fila {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #88a9ef;
+}
+
+footer div {
+  flex: 1;
+  text-align: center;
+}
+
+footer a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #000;
+}
